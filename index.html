@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+
+    <!--为了兼容IE浏览器，告诉IE浏览器使用最新版本的引擎显示当前的页面-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--为了兼容移动设备，使当前页面和移动设备比例保持1比1.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="jsml5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .s1{
+            color:#a10000;
+            font-size:12px;
+            margin-left:5px;
+        }
+        h5{
+            color:#808080;
+          }
+        h5 a{
+            margin-left:5px;
+            margin-right:5px;
+            font-size:13px;
+
+
+        }
+        h4{
+            font-size:14px;
+
+        }
+        .i{
+              outline:1px solid #9d9d9d;
+          }
+        h6{
+            color:#a10000;
+            font-size:14px;
+        }
+        .s2{
+            font-size:18px;
+            margin-right:10px;
+        }
+        .s3{
+            color:#99979c;
+            font-size:12px;
+        }
+        .btn1{
+            width:90px;
+        }
+        .s4{
+            display: block;
+            float:right;
+            margin-right:5px;
+            margin-top:7px;
+        }
+        .btnn{
+            width:150px;
+            border:1px solid #a10000;
+            background: #f7abaf;
+            color:#a10000;
+            font-size:12px;
+            border-radius: 0;
+
+        }
+        .btnn1{
+            width:150px;
+            border:1px solid #a10000;
+            background: #a10000;
+            color:#ffffff;
+            font-size:12px;
+            border-radius: 0;
+        }
+        .hr{
+            border-color: #a10000;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="row" style="padding-top:15px;">
+        <div class="col-md-6 col-xs-6 text-left">
+            <h4>凡客T恤 熊本熊T13 浅花灰色 <span class="s1">最后10小时！折后满减</span></h4>
+        </div>
+        <div class="col-md-5 col-xs-6 text-right">
+            <h5><a>产品描述</a>|<a>评论</a>|<a>提问</a></h5>
+        </div>
+        <div class="col-md-11 col-xs-12">
+            <hr>
+        </div>
+    </div>
+    <div class="row" style="padding-top:15px;">
+        <div class="col-md-1 col-xs-3">
+            <img src="images/01.jpg" class="img-responsive i"><br>
+            <img src="images/02.jpg" class="img-responsive i">
+
+        </div>
+        <div class="col-md-5 col-xs-8">
+            <img src="images/03.png" class="img-responsive i">
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <div class="row">
+                <div class="col-md-10 col-xs-12" >
+                    <h6>售价：<span class="s2">￥78.00</span> 充100返100，点击充值</h6>
+                </div>
+            </div>
+            <div class="row" style="margin-top:8px;font-size:12px;">
+                <div class="col-md-2 col-xs-3" >
+                    <span class="s3">颜色:</span>
+                </div>
+                <div class="col-md-3 col-xs-4" style="padding:0;margin-right:10px">
+                    <img src="images/l1.png" class="img-responsive i" name="img">
+                </div>
+                <div class="col-md-3 col-xs-4" style="padding:0">
+
+                    <img src="images/l2.png" class="img-responsive i" name="img">
+                </div>
+            </div>
+
+            <div class="row" style="margin-top:8px;">
+                <div class="col-md-2 col-xs-2" style="margin-top:8px; color:#99979c;font-size:12px;">
+                    尺码:</span>
+                </div>
+                <div class="col-md-10 col-xs-10" style="padding:0;">
+                    <div class="col-md-2 col-xs-2">
+                        <a class="btn btn-default" style="font-size:12px;">S</a>
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <a class="btn btn-default" style="font-size:12px;">M</a>
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <a class="btn btn-default" style="font-size:12px;">L</a>
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <a class="btn btn-default" style="font-size:12px;">XL</a>
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <a class="btn btn-default" style="font-size:12px;">XXL</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top:8px;font-size:12px;">
+                <div class="col-md-2 col-xs-2" style="margin-top:8px; color:#99979c;">
+                    数量:</span>
+                </div>
+                <div class="col-md-10 col-xs-10" style="padding:0">
+                    <div class="col-md-3 col-xs-12">
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle btn1" data-toggle="dropdown">
+                                1<span class="caret s4"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li class="text-center"><a>1</a></li>
+                                <li class="text-center"><a>2</a></li>
+                                <li class="text-center"><a>3</a></li>
+                                <li class="text-center"><a>5</a></li>
+                                <li class="text-center"><a>6</a></li>
+                                <li class="text-center"><a>7</a></li>
+                                <li class="text-center"><a>8</a></li>
+                                <li class="text-center"><a>9</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row" style="margin-top:8px;font-size:12px;">
+                <div class="col-md-2 col-xs-3" >
+                    <span class="s3">已选:</span>
+                </div>
+                <div class="col-md-3 col-xs-4" style="padding:0">
+                    浅花灰色
+                </div>
+                <div class="col-md-3 col-xs-4" style="color:#a10000;font-size:12px;padding:0">
+                    现在有货
+                </div>
+            </div>
+
+            <div class="row" style="margin-top:8px;font-size:12px;">
+                <div class="col-md-6 col-xs-6">
+                    <a class="btn btn-default btnn">立即购买</a>
+                </div>
+                <div class="col-md-6 col-xs-6" style="padding:0">
+                    <a class="btn btn-default btnn1">加入购物车</a>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top:8px;font-size:12px;">
+                <div class="col-md-5 col-xs-5">
+                    <hr class="hr">
+                </div>
+                <div class="col-md-2 col-xs-2" style="padding:0;padding-top:10px;">
+                    <span style="color: #a10000;font-size:12px;">优惠提示</span>
+                </div>
+                <div class="col-md-4 col-xs-4" style="padding:0;">
+                    <hr class="hr">
+                </div>
+            </div>
+
+            <div class="row" style="margin-top:8px;font-size:12px;padding:0">
+               <div class="col-md-7 col-xs-12">
+                   <ul style="color:#333;font-size:11px;line-height:20px;">
+                       <li>全场购物满199元免运费</li>
+                       <li>10小时抢购 1件8折2件7折</li>
+                       <li>满199减20 满499减50</li>
+                   </ul>
+               </div>
+            </div>
+
+            <div class="row" style="margin-top:8px;padding:0">
+                <div class="col-md-11 col-xs-11">
+                    <hr class="hr">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-11 col-xs-12" style="margin-top:15px;">
+                <hr>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+<script>
+    $(function(){
+        $("[name=img]").mouseover(function(){
+            $(this).css("outline","1px solid #a10000");
+        })
+        $("[name=img]").mouseout(function(){
+            $(this).css("outline","1px solid #9d9d9d");
+        })
+    })
+</script>
+<html>
